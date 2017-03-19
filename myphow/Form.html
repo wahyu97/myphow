@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pendaftaran</title>
+</head>
+	<link rel=stylesheet type="text/css" href="style.css" >
+<body>
+	<header>
+		<nav>
+			<ul>
+			<li><a href="home.html" class="home">HOME</a></li>
+			<li><a href="form.html" class="form">PESAN SEKARANG!</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<div id="form">
+	<h2 align="center">Pendaftaran</h2>
+	<br/>
+	<form class="daftar" action="form.php" method="post">
+	<ul>
+		<li>
+			<label for="nama"> Nama Pemesan</label><br/>
+			<input name="nama" type="text" placeholder="Masukkan Nama Anda" required/>
+		</li>
+		<br/>
+		<li>
+			<label for="paket"> Paket</label><br/>
+				<select name="paket"> 
+					<option value="">Pilih Paket Anda</option>
+					<option value="Karangasem"> Karangasem </option>
+					<option value="Bangli"> Bangli </option>
+					<option value="Lengkap"> Lengkap </option>
+				</select>
+		</li>
+		<br/>
+		<li>
+			<label for="email"> Email Anda</label><br/>
+			<input name="email" type="text" placeholder="admin@myphow.com" required/>
+		</li>
+		<br/>
+		<li>
+			<label for="notelp"> Nomor Telepon</label><br/>
+			<input name="notelp" type="text" placeholder="085383xxxxxxxx" />
+		</li>
+		<br/>
+		<li>
+			<label for="jumlah"> Jumlah Peserta Tour </label><br/>
+				<select name="jumlah">
+					<option value=""> Pilih Jumlah Peserta </option>
+					<option value="1-5"> 1-5 </option>
+					<option value="5-10"> 5-10 </option>
+					<option value="11-40"> 11-40 </option>
+				</select>
+		</li>
+		<br/>
+		<li>
+			<label for="tglbrngkt"> Tgl. Berangkat</label><br/>
+			<input name="tglbrngkt" type="date" /> <br />
+		</li>
+		<br/>
+		<li>
+			<input type="submit" value=" BOOK NOW!" />
+		</li>
+	</ul>
+	</form>
+	</div>
+		
+	<section id="cd-team" class="cd-section">
+		<h2 align="center">Our team</h2>	
+			<div class="cd-container">
+				<ul>
+					<li>
+						<a href="#0" data-type="member-1">
+							<figure>
+								<img src="images/wahyu.png" alt="Team member 1">
+							</figure>
+
+							<div class="cd-member-info">
+								Wahyu Untoro <span>WEB & Graphic Design</span>
+							</div> <!-- cd-member-info -->
+						</a>
+					</li>
+					
+					<li>
+						<a href="#0" data-type="member-2">
+							<figure>
+								<img src="images/team-member-1.jpg" alt="Team member 1">
+							</figure>
+
+							<div class="cd-member-info">
+								Ogie Sutrisna Ady <span>Web Design</span>
+							</div> <!-- cd-member-info -->
+						</a>
+					</li>
+
+					<li>
+						<a href="#0" data-type="member-3">
+							<figure>
+								<img src="images/team-member-1.jpg" alt="Team member 1">
+							</figure>
+
+							<div class="cd-member-info">
+								Madesu<span>Social Media Administrator</span>
+							</div> <!-- cd-member-info -->
+						</a>
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<a href="#0" data-type="member-1">
+							<figure>
+								<img src="images/yong.png" alt="Team member 1">
+							</figure>
+
+							<div class="cd-member-info">
+								Harris Yong<span>Graphic Design</span>
+							</div> <!-- cd-member-info -->
+						</a>
+					</li>
+					
+					<li>
+						<a href="#0" data-type="member-2">
+							<figure>
+								<img src="images/team-member-1.jpg" alt="Team member 1">
+								</figure>
+
+							<div class="cd-member-info">
+								Diana Putra<span>Content Management</span>
+							</div> <!-- cd-member-info -->
+						</a>
+					</li>
+
+					<li>
+						<a href="#0" data-type="member-3">
+							<figure>
+								<img src="images/team-member-1.jpg" alt="Team member 1">
+								</figure>
+
+							<div class="cd-member-info">
+								Yogi<span>Content Management</span>
+							</div> <!-- cd-member-info -->
+						</a>
+					</li>
+				</ul>
+			</div> <!-- cd-container -->
+		</section> <!-- cd-team -->
+	<br/>		
+	
+	<footer> 
+		<div class="sosmed">
+		You Can Contact Us On : 
+		<br>
+		<br>
+		<a href="facebook.com/"><img src="images/facebook.png" width="50" height="50"></a> 
+		<a href="twitter.com/"><img src="images/Twitter.png" width="50" height="50"></a>
+		</div>
+		<div class="address" align="center">
+			Hotline :
+			<br> (0361) 802210
+			<br> +62 861672890
+			<p>
+		<hr>
+			<br><b>MYPHOW travel</b>
+			<br>Jalan Tukad Badung No. 135
+			<br>Denpasar - Bali
+		</div>
+	</footer>
+</body>
+</html>
